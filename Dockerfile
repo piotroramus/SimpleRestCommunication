@@ -5,3 +5,6 @@ ADD server.py /server.py
 ADD requirements.txt /requirements.txt
 
 RUN pip install -r requirements.txt
+
+# install iperf
+RUN apk add --no-cache iperf
