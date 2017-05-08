@@ -6,6 +6,6 @@ if __name__ == '__main__':
 
     try:
         r = requests.get(url)
-        print r.content
+        print(r.content)
     except requests.exceptions.ConnectionError:
-        print "Cannot connect to server..."
+        print("Cannot connect to server...")
