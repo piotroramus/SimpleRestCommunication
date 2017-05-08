@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route("/hello", methods=['GET'])
-def api_temperature():
+def hello():
     return "Hello from server"
 
 
